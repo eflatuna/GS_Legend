@@ -5,9 +5,9 @@ import logo from "../assets/GS.png";
 // import Form from "react-bootstrap/Form";
 
 const Header = ({ setSearchInput }) => {
-	const handleInputChange = (e) => {
-		setSearchInput(e.target.value);
-	};
+	// const handleInputChange = (e) => {
+	// 	setSearchInput(e.target.value);
+	// };
 	return (
 		<Container>
 			<Image src={logo}></Image>
