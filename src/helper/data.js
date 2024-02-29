@@ -1,6 +1,6 @@
 import icardi from "../assets/mauro-icardi.jpeg";
 import kerem from "../assets/kerem-akturkoglu.jpg";
-import zaha from "../assets/wilfried-zaha.jpeg";
+import zaha from "../assets/wilfried-zaha.jpg";
 import mertens from "../assets/dries-mertens.jpg";
 import baris from "../assets/baris-yilmaz.jpg";
 import abdulkerim from "../assets/abdulkerim-bardakci.jpg";
@@ -9,7 +9,7 @@ import keremd from "../assets/kerem-demirbay.jpg";
 import nelsson from "../assets/victor-nelsson.jpeg";
 import sanchez from "../assets/davinson-sanchez.jpeg";
 import sergio from "../assets/sergio-oliveira.jpeg";
-import kaan from "../assets/kaan-ayhan.jpeg";
+import kaan from "../assets/kaan-ayhan.jpg";
 
 export const data = [
 	{

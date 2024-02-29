@@ -1,19 +1,32 @@
 import React from "react";
 import Player from "./Player";
 import Container from "react-bootstrap/Container";
-import Image from "react-bootstrap/Image";
-import bgLogo from "../assets/gs.jpg";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+// import Image from "react-bootstrap/Image";
+// import bgLogo from "../assets/gs.jpg";
+import { data } from "../helper/data";
 
 const CardContainer = () => {
+	console.log(data);
 	return (
 		<Container className="card-container mt-4">
-			<Image
+			{/* <Image
 				fluid
 				className="rounded-5"
 				src={bgLogo}
 				width="700px"
-			></Image>
-			<Player />
+			></Image> */}
+			<h1>players</h1>
+			<Row>
+				{data.map((p, index) => {
+					return (
+						<Col sm={6} md={4} lg={3} key={index}>
+							<Player {...p} />
+						</Col>
+					);
+				})}
+			</Row>
 		</Container>
 	);
 };

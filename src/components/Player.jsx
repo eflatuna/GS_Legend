@@ -1,9 +1,6 @@
-import React from "react";
-
-import Container from "react-bootstrap/Container";
-
-const Player = () => {
-	return <Container></Container>;
+const Player = ({ p }) => {
+	console.log(p);
+	return <div>players</div>;
 };
 
 export default Player;

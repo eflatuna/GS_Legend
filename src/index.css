@@ -10,3 +10,9 @@ body {
 	font-family: monospace;
 	height: 100vh;
 }
+.card-container {
+	background-image: url(./assets/lion.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+}
