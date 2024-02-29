@@ -10,15 +10,15 @@ import { data } from "../helper/data";
 const CardContainer = () => {
 	console.log(data);
 	return (
-		<Container className="card-container mt-4">
+		<Container className="card-container mt-4 p-4">
 			{/* <Image
 				fluid
 				className="rounded-5"
 				src={bgLogo}
 				width="700px"
 			></Image> */}
-			<h1>players</h1>
-			<Row>
+			{/* <h1 className="text-white my-4">Players</h1> */}
+			<Row className="g-3">
 				{data.map((p, index) => {
 					return (
 						<Col sm={6} md={4} lg={3} key={index}>
