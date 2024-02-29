@@ -16,7 +16,7 @@ const Player = ({ name, img, statistics }) => {
 	return (
 		<Container
 			style={{ backgroundColor: "white", height: "300px" }}
-			className="p-4 rounded-2"
+			className="p-4 rounded-2 play-card"
 			onClick={() => setShowCards(!showCards)}
 		>
 			{!showCards && (
@@ -48,7 +48,7 @@ const Player = ({ name, img, statistics }) => {
 									listStyleType: "none",
 								}}
 								key={index}
-								className="h5 text-start mt-4"
+								className="h5 text-start mt-4 "
 							>
 								{item.includes("Goals") && (
 									<FaFutbol style={{ marginRight: "5px" }} />
