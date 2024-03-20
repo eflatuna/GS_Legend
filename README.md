@@ -1,3 +1,4 @@
+# GS Legends App
 ## Description
 
 - Project aims to create a GS Legends App.
